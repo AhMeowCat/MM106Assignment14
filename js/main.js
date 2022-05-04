@@ -9,14 +9,14 @@ function saveItem() {
 
 function modifyItem() {
   let name = document.forms.ShoppingList.name.value;
-  document.forms.ShoppingList.name.value = localStorage.getItem(name);
+  document.forms.ShoppingList.data.value = localStorage.getItem(name);
   localStorage.getItem(name);
   showAll();
 }
 
-function removeItem() {
+function deleteItem() {
   let name = document.forms.ShoppingList.name.value;
-  document.forms.ShoppingList.name.value = localStorage.removeItem(name);
+  document.forms.ShoppingList.data.value = localStorage.removeItem(name);
   localStorage.removeItem(name);
   showAll();
 }

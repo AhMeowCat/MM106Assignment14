@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,10 @@
   <script src="js/main.js"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body onload="checkBrowser()">
 
+  <img src="images/shoppingCat.jpg">
   <h1>Enter Shopping Items and Quantities</h1>
   <form name="ShoppingList">
     <div id="shopping">
@@ -22,7 +25,7 @@
           <td>
             <input type="button" value="Save" onclick="saveItem()">
             <input type="button" value="Modify" onclick="modifyItem()">
-            <input type="button" value="Remove" onclick="removeItem()">
+            <input type="button" value="Delete" onclick="deleteItem()">
           </td>
         </tr>
       </table>
@@ -36,6 +39,7 @@
       </table>
     </div>
   </form>
-  
+
 </body>
+
 </html>

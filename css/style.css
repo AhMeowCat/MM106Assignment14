@@ -3,15 +3,20 @@
   --font-family-button: Arial, Helvetica, sans-serif;
 }
 
+img {
+  height: 200px;
+}
+
 h1 {
   font-size: 22px;
   font-family: var(--font-family-heading);
 }
 
-td, th {
-  font-family: var(--font-family-heading);
-  background-color: #ccc;
-  padding: 4px;
+td,
+th {
+  font-family: var(--font-family-button);
+  background-color: #E6E6FA;
+  padding: 12px;
 }
 
 label {
@@ -19,28 +24,30 @@ label {
   vertical-align: top;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   font-family: var(--font-family-button);
   width: auto;
-  border: 1px solid #aaa;
+  border: 1px solid #BAB86C;
   margin: 8px;
   padding: 8px;
   border-radius: 5px;
 }
 
-input:hover {
+input[type="button"]:hover {
   font-weight: 600;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 #shopping {
-  background-color: #ccc;
-  border: 1px dotted blue;
+  background-color: #E6E6FA;
+  border: 2px dotted #556b2f;
   padding: 6px;
 }
 
 #items_table {
-  border: 1px dotted blue;
+  border: 2px dotted #556b2f;
   padding: 6px;
   margin-top: 12px;
 }
