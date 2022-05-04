@@ -1,0 +1,52 @@
+:root {
+  --font-family-heading: Copperplate, "Copperplate Gothic Light", fantasy, Arial;
+  --font-family-button: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+  font-family: var(--font-family-heading);
+}
+
+td, th {
+  font-family: var(--font-family-heading);
+  background-color: #ccc;
+  padding: 4px;
+}
+
+label {
+  font-family: var(--font-family-button);
+  vertical-align: top;
+}
+
+input, select, textarea {
+  font-family: var(--font-family-button);
+  width: auto;
+  border: 1px solid #aaa;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+input:hover {
+  font-weight: 600;
+  transform: scale(1.1);
+}
+
+#shopping {
+  background-color: #ccc;
+  border: 1px dotted blue;
+  padding: 6px;
+}
+
+#items_table {
+  border: 1px dotted blue;
+  padding: 6px;
+  margin-top: 12px;
+}
+
+#items_table h1 {
+  font-size: 18px;
+  font-family: var(--font-family-heading);
+  margin-top: 0px;
+}

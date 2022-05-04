@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 14 Shopping List</title>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="checkBrowser()">
+
+  <h1>Enter Shopping Items and Quantities</h1>
+  <form name="ShoppingList">
+    <div id="shopping">
+      <table>
+        <tr>
+          <td>Item <input type="text" name="name"></td>
+          <td>Quantity <input type="text" name="data"></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" value="Save" onclick="saveItem()">
+            <input type="button" value="Modify" onclick="modifyItem()">
+            <input type="button" value="Remove" onclick="removeItem()">
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="items_table">
+      <h1>Shopping List</h1>
+      <table id="list">
+        <p>
+          <label><input type="button" value="Clear" onclick="clearAll()">Remove all items</label>
+        </p>
+      </table>
+    </div>
+  </form>
+  
+</body>
+</html>
