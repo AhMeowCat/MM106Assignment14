@@ -42,7 +42,7 @@ function showAll() {
 }
 
 function checkBrowser() {
-  if ('localStorage' in window && window['localStorage' !== null]) {
+  if ('localStorage' in window && window['localStorage'] !== null) {
     //we can use local storage
     console.log('local storage works');
     return true;
