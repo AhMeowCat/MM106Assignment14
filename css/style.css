@@ -7,17 +7,29 @@ img {
   height: 200px;
 }
 
-h1 {
-  font-size: 22px;
-  font-family: var(--font-family-heading);
+header {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.8em;
   color: #684a8b;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-family: var(--font-family-heading);
+  color: #556b2f;
+  padding-left: 15px;
 }
 
 td,
 th {
   font-family: var(--font-family-button);
   background-color: #E6E6FA;
-  padding: 12px;
+  padding: 10px;
 }
 
 label {
@@ -41,12 +53,6 @@ input[type="button"]:hover {
   transform: scale(1.2);
 }
 
-header, div {
-  width: 75%;
-  margin: 0 auto;
-  text-align: center;
-}
-
 #shopping {
   background-color: #E6E6FA;
   border: 2px dotted #556b2f;
@@ -56,6 +62,7 @@ header, div {
 }
 
 #items_table {
+  background-color: #dde1d5;
   border: 2px dotted #556b2f;
   padding: 6px;
   margin-top: 12px;
@@ -63,8 +70,6 @@ header, div {
   border-bottom-left-radius: 30px;
 }
 
-#items_table h1 {
-  font-size: 18px;
-  font-family: var(--font-family-heading);
-  margin-top: 0px;
+p, #list {
+  padding-left: 15px;
 }
